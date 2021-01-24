@@ -1,4 +1,4 @@
-# The Discord Auto Calendar Script
+# Google Calendar to Niles
 # Dependencies: pyautogui, Pillow, and opencv_python
 # Created by Jacky Liang
 calendarId = ''
@@ -12,11 +12,11 @@ from datetime import date, datetime, timedelta
 import pyautogui, os, ssl, urllib.request, urllib.parse, json, re
 
 # Welcome message.
-print('==========================================')
-print('||   THE DISCORD AUTO CALENDAR SCRIPT   ||')
-print('||      ~ CREATED BY JACKY LIANG ~      ||')
-print('||    ACTIONS LOGGED, CTRL+C TO EXIT    ||')
-print('==========================================')
+print('==============================================')
+print('||   GOOGLE CALENDAR TO NILES DISCORD BOT   ||')
+print('||        ~ CREATED BY JACKY LIANG ~        ||')
+print('||      ACTIONS LOGGED, CTRL+C TO EXIT      ||')
+print('==============================================')
 
 # Configure pyautogui.
 pyautogui.FAILSAFE = True

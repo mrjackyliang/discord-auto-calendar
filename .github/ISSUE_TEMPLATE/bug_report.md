@@ -16,7 +16,7 @@ What do you think the problem relates to?
 A clear and concise description of what you expected to happen.
 
 ### Logs related to this bug:
-Run the Discord Auto Calendar script. Copy the error message then replace `SAMPLE TEXT` inside the grave accents:
+Run the Google Calendar to Niles script. Copy the error message then replace `SAMPLE TEXT` inside the grave accents:
 
 ```sh
 SAMPLE TEXT

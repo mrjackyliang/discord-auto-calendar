@@ -1,9 +1,9 @@
-Discord Auto Calendar
-======================
+Google Calendar to Niles
+=========================
 
-[![GitHub Releases](https://img.shields.io/github/v/release/mrjackyliang/discord-auto-calendar?style=flat-square&color=blue&sort=semver)](https://github.com/mrjackyliang/discord-auto-calendar/releases)
-[![GitHub Top Languages](https://img.shields.io/github/languages/top/mrjackyliang/discord-auto-calendar?style=flat-square&color=success)](https://github.com/mrjackyliang/discord-auto-calendar)
-[![GitHub License](https://img.shields.io/github/license/mrjackyliang/discord-auto-calendar?style=flat-square&color=yellow)](https://github.com/mrjackyliang/discord-auto-calendar/blob/master/LICENSE)
+[![GitHub Releases](https://img.shields.io/github/v/release/mrjackyliang/google-niles-script?style=flat-square&color=blue&sort=semver)](https://github.com/mrjackyliang/google-niles-script/releases)
+[![GitHub Top Languages](https://img.shields.io/github/languages/top/mrjackyliang/google-niles-script?style=flat-square&color=success)](https://github.com/mrjackyliang/google-niles-script)
+[![GitHub License](https://img.shields.io/github/license/mrjackyliang/google-niles-script?style=flat-square&color=yellow)](https://github.com/mrjackyliang/google-niles-script/blob/master/LICENSE)
 [![Become a GitHub Sponsor](https://img.shields.io/badge/sponsor-github-black?style=flat-square&color=orange)](https://github.com/sponsors/mrjackyliang)
 
 A Discord calendar automation script created in Python that allows the end-user to fetch Google Calendar events, and then automatically types it into the [Niles](https://github.com/niles-bot/niles) Discord bot for you.
@@ -17,7 +17,7 @@ To use this script, here are the steps you need to follow:
 3. Fill in the variables then run script!
 
 ## Retrieve Variables
-These are the descriptions of the variables that may be changed depending on your configuration. Examples are located below and inside the script (`start.py`). __If you need help, feel free to [open an issue](https://github.com/mrjackyliang/discord-auto-calendar/issues/new/choose) on GitHub!__
+These are the descriptions of the variables that may be changed depending on your configuration. Examples are located below and inside the script (`start.py`). __If you need help, feel free to [open an issue](https://github.com/mrjackyliang/google-niles-script/issues/new/choose) on GitHub!__
 
 1. `calendarId` - The script will read from this calendar (default is `''`, required)
 2. `apiKey` - The API key required to access the Google Calendar API (default is `''`, required)
@@ -93,11 +93,11 @@ The default is `True`. Configure `retina` with the values below:
 ## Run the script
 Finally after getting everything up and running, it is time to put the automation to the test!
 
-![Discord Auto Calendar Preview](preview.gif)
+![Google Calendar to Niles Preview](preview.gif)
 
 1. Open Discord and [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) in one space and align both applications side-by-side for ease of use (like the GIF shown above). Then configure both apps below:
    - In Discord, make sure you have the `📆calendar` channel open. If it does not exist, create it and set up the [Niles](https://github.com/niles-bot/niles) bot.
-   - In Terminal, change the directory to `cd ~/Downloads/discord-auto-calendar`. This command assumes the file is downloaded and extracted into the Downloads folder.
+   - In Terminal, change the directory to `cd ~/Downloads/google-niles-script`. This command assumes the file is downloaded and extracted into the Downloads folder.
 2. When you're ready, launch the script by typing in `python3 start.py` into the Terminal
 
 __NOTE:__ If you use multiple monitors, please note that the script will only recognize the primary monitor. Learn more about creating new spaces [using Mission Control on your Mac](https://support.apple.com/en-us/HT204100)!
